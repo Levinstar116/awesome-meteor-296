@@ -7,8 +7,8 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: SESSION
-        value: ""
-      - key: DATABASE_URL
+        value: "RGNK~TxgcgFzg"
+      - key: "postgresql://myapp_user:SNhLsOrfZwiWZ7xiQsnm9cvZUKBz8Bth@dpg-dbulbgcipgvc7399fe2g-a.oregon-postgres.render.com/myapp_db_xytd"
         fromDatabase:
           name: my-database
-          property: connectionString
+          property: "dpg-dbulbgcipgvc7399fe2g-a"
