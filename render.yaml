@@ -8,7 +8,7 @@ services:
     envVars:
       - key: SESSION
         value: "RGNK~TxgcgFzg"
-      - key: "postgresql://myapp_user:SNhLsOrfZwiWZ7xiQsnm9cvZUKBz8Bth@dpg-dbulbgcipgvc7399fe2g-a.oregon-postgres.render.com/myapp_db_xytd"
+      - key: postgresql://myapp_user:SNhLsOrfZwiWZ7xiQsnm9cvZUKBz8Bth@dpg-dbulbgcipgvc7399fe2g-a.oregon-postgres.render.com/myapp_db_xytd
         fromDatabase:
           name: my-database
-          property: "dpg-dbulbgcipgvc7399fe2g-a"
+          property: dpg-dbulbgcipgvc7399fe2g-a
